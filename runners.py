@@ -64,6 +64,11 @@ def hill_climbing(f, x, s, g):
 T = 100
 
 
+def reset_temp():
+    global T
+    T = 100
+
+    
 def simulated_annealing(f, x, s, g, r=0.99):
     global T
     T = max(T * r, 2)
