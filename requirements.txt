@@ -1,2 +1,4 @@
 mpmath
 numpy
+matplotlib
+seaborn
