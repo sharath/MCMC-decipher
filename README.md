@@ -1,4 +1,5 @@
 # MCMC-decipher
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sharath/mcmc-decipher/master?filepath=demo.ipynb)
 
 Project for Math 456: Mathematical Modeling
 
