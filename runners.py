@@ -71,7 +71,7 @@ def reset_temp():
     
 def simulated_annealing(f, x, s, g, r=0.99):
     global T
-    T = max(T * r, 0.1)
+    T = max(T * r, 2)
     xc = swap(x)
     delta = f(x, s, g) - f(xc, s, g)
     if delta < 0:
